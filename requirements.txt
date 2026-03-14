@@ -1,0 +1,32 @@
+# ──────────────────────────────────────────────
+# ResearchHub AI – Python Dependencies
+# ──────────────────────────────────────────────
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+
+# Local embeddings (ONNX, no PyTorch needed)
+onnxruntime
+tokenizers
+huggingface-hub
+numpy
+
+# HTTP client (for HF text generation API only)
+httpx
+
+# Vector database
+qdrant-client==1.12.2
+
+# PDF parsing
+PyMuPDF==1.25.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic-settings==2.7.0
